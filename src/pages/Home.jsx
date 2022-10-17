@@ -1,8 +1,12 @@
+import UserResults from "../components/users/UserResults"
+
 
 function Home() {
   return (
     <div>
-        <h1 className="text-6xl">WelCome</h1>
+        <h1 className="text-6xl">
+          <UserResults />
+        </h1>
     </div>
   )
 }
